@@ -7,7 +7,7 @@ A TCP communication network where the server can communicate with multiple clien
 This program was an individual project that was created in order to better understand TCP communication protocols as well as solidify understanding in Windows Forms, C# APIs and Libraries, and socket programming.
 
 ## Limitations
-Only allowed to send small files (100 KB), large files causes the server and client to crash. Communication can only occur via the same network or through local host. The server doesn't have the ability to send back files to the client.
+Communication can only occur via the same network or through local host. The server doesn't have the ability to send back files to the client.
 
 ## Future Improvements
-Trying to find a way to send any size file from both the client and server without any bytes lost. Allowing communication between different networks and devices. Having the capability of clients being able to interact with each other and send messages/files to each other. Lastly, making the communication more secure by using SSL streams to transmit information.
+Allowing communication between different networks and devices. Having the capability of clients being able to interact with each other and send messages/files to each other. Lastly, making the communication more secure by using SSL streams to transmit information.
